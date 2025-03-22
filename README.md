@@ -1,6 +1,8 @@
-# LLM4Opt
-LLM for Optimization Modeling
-1. [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://github.com/caigaojiang/LLMOPT?tab=readme-ov-file):一个基于学习的优化问题求解框架,旨在提高当前基于大语言模型的优化方法的泛化性能。该框架包括以下主要功能：
-    - 引入一个学习定义模块,构建一个包含5个元素的通用优化问题公式化框架,以增强方法的泛化性;
-   - 采用多指令微调和模型对齐技术,同时优化问题公式化和求解器代码生成,提高性能;
-    - 引入自我纠正机制,进一步提高系统在测试阶段的性能.
+# Large Language Model for Optimization Problem Modeling and Solving
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) <!-- PRs Welcome -->[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+
+A curated list of **Large Language Models (LLMs)** for **optimization problem modeling** and **solving**, with awesome resources (papers, code, applications, reviews, surveys, etc.) across **transportation**, **logistics**, and related domains. This repository aims to systematically summarize recent advances in the field, providing a comprehensive overview of how LLMs solve complex optimization challenges.
+
+## Promopt Engineering for Problem Modeling
+#### LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch, ICLR 2025. [[paper]](https://openreview.net/pdf?id=9OMvtboTJg)[[official code]](https://github.com/caigaojiang/LLMOPT?tab=readme-ov-file)
+- LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
