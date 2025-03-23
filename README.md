@@ -15,3 +15,9 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 #### LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch, ICLR 2025. [[paper]](https://openreview.net/pdf?id=9OMvtboTJg)[[official code]](https://github.com/caigaojiang/LLMOPT?tab=readme-ov-file)
 
 - LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
+
+## Other Resources
+
+#### Machine Mindset: An MBTI Exploration of Large Language Models. [[paper]](https://arxiv.org/abs/2312.12999)[[official code]](https://github.com/PKU-YuanGroup/Machine-Mindset)
+
+- This study proposes "Machine Mindset," a method integrating MBTI traits into LLMs using two-phase fine-tuning and DPO to ensure consistent personality profiles. Validated across domains, it aligns model behavior with MBTI traits, offering new datasets and training frameworks for personalized AI.
