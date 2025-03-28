@@ -22,14 +22,24 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 - LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
 
-## Multi-Agent Collaborative frameworks
+## Multi-Agent System
 
-**Multi-Agent Collaboration Mechanisms: A Survey of LLMs, preprint.** [[paper]](https://arxiv.org/abs/2501.06322)
+**[2025/05/17] Why Do Multi-Agent LLM Systems Fail?, preprint.** [[paper]](https://arxiv.org/abs/2503.13657)
+
+- Provide a systematic analysis for why do multiagent systems fail.
+
+**[2025/01/10] Multi-Agent Collaboration Mechanisms: A Survey of LLMs, preprint.** [[paper]](https://arxiv.org/abs/2501.06322)
 
 - This study explores collaboration in Multi-Agent Systems (MASs), proposing a framework categorizing actors, types, structures, strategies, and coordination protocols. It reviews methodologies to enhance MASs for real-world applications in 5G/6G, Industry 5.0, question answering, and social contexts, identifying key insights, challenges, and research directions toward artificial collective intelligence.
+
+**[2024/02/11] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation, ICLR 2024.** [[paper]](https://openreview.net/forum?id=tEAF9LBdgu)[[official code]](https://github.com/ag2ai/ag2)
+
+- AutoGen is an open-source framework that allows developers to build LLM applications using multiple conversable agents and conversation programming. Experiments show benefits on diverse domains.
 
 **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework, ICLR 2024.** [[paper]](https://openreview.net/forum?id=VtmBAGCN7o)[[official code]](https://github.com/geekan/MetaGPT)
 
 - MetaGPT introduces a framework integrating human workflows into multi-agent systems using LLMs. It addresses logic inconsistencies in complex tasks by encoding Standardized Operating Procedures (SOPs) and assigning specialized roles. Evaluations show it outperforms chat-based systems in collaborative problem-solving.
 
 ## Other Resources
+
+[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
