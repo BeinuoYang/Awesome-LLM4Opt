@@ -32,6 +32,10 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 - This study explores collaboration in Multi-Agent Systems (MASs), proposing a framework categorizing actors, types, structures, strategies, and coordination protocols. It reviews methodologies to enhance MASs for real-world applications in 5G/6G, Industry 5.0, question answering, and social contexts, identifying key insights, challenges, and research directions toward artificial collective intelligence.
 
+**[2024/02/11] Large Language Model based Multi-Agents: A Survey of Progress and Challenges, IJCAI 2024.** [[paper]](https://arxiv.org/abs/2402.01680)[[official code]](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)
+
+- This survey is presented to offer an in-depth discussion on the essential aspects and challenges of LLM-based multi-agent (LLM-MA) systems, and provides readers with an in-depth understanding of the domains and settings where LLM-MA systems operate or simulate; the profiling and communication methods of these agents; and the means by which these agents develop their skills.
+
 **[2024/02/11] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation, ICLR 2024.** [[paper]](https://openreview.net/forum?id=tEAF9LBdgu)[[official code]](https://github.com/ag2ai/ag2)
 
 - AutoGen is an open-source framework that allows developers to build LLM applications using multiple conversable agents and conversation programming. Experiments show benefits on diverse domains.
