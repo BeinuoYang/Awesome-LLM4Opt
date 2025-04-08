@@ -18,6 +18,10 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 ### Learning-based Methods
 
+**[2025/04/04] ORLM: A customizable framework in training large models for automated optimization modeling, Operations Research.** [[paper]](https://arxiv.org/abs/2405.17743)[[official code]](https://github.com/Cardinal-Operations/ORLM)
+
+- This research proposes a pathway for training open-source LLMs to automate optimization modeling and solving. It introduces OR-INSTRUCT, a semi-automated data synthesis framework for optimization modeling that allows for customizable enhancements tailored to specific scenarios or model types. Additionally, the research presents IndustryOR, an industrial benchmark designed to evaluate the performance of LLMs in solving practical OR problems.
+
 **LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch, ICLR 2025.** [[paper]](https://openreview.net/pdf?id=9OMvtboTJg)[[official code]](https://github.com/caigaojiang/LLMOPT?tab=readme-ov-file)
 
 - LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
