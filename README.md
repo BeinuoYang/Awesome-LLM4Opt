@@ -28,6 +28,8 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 ## Multi-Agent System
 
+### Survey
+
 **[2025/05/17] Why Do Multi-Agent LLM Systems Fail?, preprint.** [[paper]](https://arxiv.org/abs/2503.13657)
 
 - Provide a systematic analysis for why do multiagent systems fail.
@@ -40,6 +42,14 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 - This survey is presented to offer an in-depth discussion on the essential aspects and challenges of LLM-based multi-agent (LLM-MA) systems, and provides readers with an in-depth understanding of the domains and settings where LLM-MA systems operate or simulate; the profiling and communication methods of these agents; and the means by which these agents develop their skills.
 
+### Debate
+
+**[2024/06/21] ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs, ACL 2024.** [[paper]](https://arxiv.org/abs/2309.13007)[[official code]](https://github.com/dinobby/ReConcile)
+
+- Improving reasoning by learning to convince other agents in a multi-round discussion among divers LLMs.
+
+### Framework
+
 **[2024/02/11] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation, ICLR 2024.** [[paper]](https://openreview.net/forum?id=tEAF9LBdgu)[[official code]](https://github.com/ag2ai/ag2)
 
 - AutoGen is an open-source framework that allows developers to build LLM applications using multiple conversable agents and conversation programming. Experiments show benefits on diverse domains.
@@ -49,5 +59,9 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 - MetaGPT introduces a framework integrating human workflows into multi-agent systems using LLMs. It addresses logic inconsistencies in complex tasks by encoding Standardized Operating Procedures (SOPs) and assigning specialized roles. Evaluations show it outperforms chat-based systems in collaborative problem-solving.
 
 ## Other Resources
+
+[Foundation Models for Combinatorial Optimization](https://github.com/ai4co/awesome-fm4co)
+
+- FM4CO contains interesting research papers (1) using Existing Large Language Models for Combinatorial Optimization, and (2) building Domain Foundation Models for Combinatorial Optimization.
 
 [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
