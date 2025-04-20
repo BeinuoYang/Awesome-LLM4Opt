@@ -12,6 +12,12 @@ A curated list of **Large Language Models (LLMs)** for **optimization problem mo
 
 - The study introduces ORQA, a benchmark evaluating LLMs on Operations Research tasks requiring multistep reasoning. Testing models like LLaMA 3.1 and Mixtral reveals limited performance, highlighting LLMs' challenges in specialized domains.
 
+**[2025/01/23] Decision information meets large language models: The future of explainable opera- tions research, ICLR 2025.** [[paper]](https://openreview.net/forum?id=W2dR6rypBQ) [[official code]](https://github.com/Forrest-Stone/EOR?utm_source=catalyzex.com) [[dataset]](https://github.com/Forrest-Stone/EOR/tree/main/True-labels/benchmark)
+Interpretability
+
+- The study present EOR, a novel framework that addresses transparency and interpretability challenges in OR. It introduces the concept of “Decision Information” through what-if analysis and use bipartite graphs to quantify changes in OR models.
+- Establish a industrial benchmark for evaluating explanation quality in OR.
+
 **[2024/03/15] Chain-of-Experts: When LLMs Meet Complex Operation Research Problems, ICLR 2024.** [[paper]](https://openreview.net/forum?id=HobyL1B9CZ) [[official code]](https://github.com/xzymustbexzy/Chain-of-Experts/tree/main) [[poster]](https://iclr.cc/media/PosterPDFs/ICLR%202024/18977.png?t=1714228549.6135468)
 
 - This paper introduces Chain-of-Experts (CoE), a multi-agent LLM framework that boosts reasoning in complex operation research problems by integrating domain-specific agents under a conductor's guidance and reflection mechanism.
