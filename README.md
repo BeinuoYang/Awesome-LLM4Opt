@@ -36,7 +36,15 @@ Interpretability
 
 - LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
 
-## Multi-Agent System
+## Multi-Agents
+
+**[2024/06/21] ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs, ACL 2024.** [[paper]](https://arxiv.org/abs/2309.13007) [[official code]](https://github.com/dinobby/ReConcile)
+
+- Improving reasoning by learning to convince other agents in a multi-round discussion among divers LLMs.
+
+**[2024/02/28] Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?, ACL 2024.** [[paper]](https://aclanthology.org/2024.acl-long.331/) [[official code]](https://github.com/HKUST-KnowComp/LLM-discussion)
+
+- This study finds that a single-agent LLM equipped with strong prompts can achieve performance nearly equivalent to the best existing multi-agent discussion methods across various reasoning tasks and backbone models. Multi-agent discussion only demonstrated superior performance over a single agent when prompts lacked demonstrations. The study further reveals common interaction mechanisms among LLMs during the discussion process.
 
 ### Survey
 
@@ -51,12 +59,6 @@ Interpretability
 **[2024/02/11] Large Language Model based Multi-Agents: A Survey of Progress and Challenges, IJCAI 2024.** [[paper]](https://arxiv.org/abs/2402.01680) [[official code]](https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers)
 
 - This survey is presented to offer an in-depth discussion on the essential aspects and challenges of LLM-based multi-agent (LLM-MA) systems, and provides readers with an in-depth understanding of the domains and settings where LLM-MA systems operate or simulate; the profiling and communication methods of these agents; and the means by which these agents develop their skills.
-
-### Debate
-
-**[2024/06/21] ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs, ACL 2024.** [[paper]](https://arxiv.org/abs/2309.13007) [[official code]](https://github.com/dinobby/ReConcile)
-
-- Improving reasoning by learning to convince other agents in a multi-round discussion among divers LLMs.
 
 ### Framework
 
