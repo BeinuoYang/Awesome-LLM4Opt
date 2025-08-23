@@ -32,6 +32,10 @@ Interpretability
 
 ### Prompt-based Methods
 
+**[2025/07/28] ORMind: A Cognitive-Inspired End-to-End Reasoning Framework for Operations Research, ACL 2025.** [[paper]](https://aclanthology.org/2025.acl-industry.10/)
+
+- This study introduce ORMind, a cognitive-inspired end-to-end framework that enhances optimization through counterfactual reasoning.
+
 **[2025/06/30] LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach, preprint.** [[paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5329027)
 
 - This study introduces LEAN-LLM-OPT, a novel framework that uses few-shot learning to guide a team of LLM agents in automatically creating state-of-the-art formulations for large-scale optimization problems from a user's query.
@@ -43,6 +47,10 @@ Interpretability
 **[2025/01/23] DRoC: Elevating Large Language Models for Complex Vehicle Routing via Decomposed Retrieval of Constraints, ICML 2025.** [[paper]](https://openreview.net/forum?id=s9zoyICZ4k) [[official code]](https://github.com/Summer142857/DRoC)
 
 - This study proposes Decomposed Retrieval of Constraints (DRoC), a novel framework aimed at enhancing large language models (LLMs) in exploiting solvers to tackle vehicle routing problems (VRPs) with intricate constraints.
+
+**[2024/10/10] CAFA: Coding as Auto-Formulation Can Boost Large Language Models in Solving Linear Programming Problem, NeurIPS 2024 Workshop MATH-AI.** [[paper]](https://openreview.net/forum?id=xC2xtBLmri) [[official code]](https://github.com/BlueAsuka/CAFA)
+
+- This study introduces CAFA, a compact prompt guiding the LLMs to formalize the given problem text into lines of code.
 
 **[2024/05/02] OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models, ICML 2024.** [[paper]](https://arxiv.org/pdf/2402.10172) [[official code]](https://github.com/teshnizi/OptiMUS/tree/optimus-v0.2) [[dataset]](https://huggingface.co/datasets/udell-lab/NLP4LP)
 
@@ -58,7 +66,7 @@ Interpretability
 
 - This study presents **DPLM**, a state-of-the-art specialized model for dynamic programming, which is enabled by the novel **DualReflect** synthetic data pipeline and validated on **DP-Bench**, the first comprehensive benchmark for this task.
 
-**[2025/04/04] ORLM: A customizable framework in training large models for automated optimization modeling, Operations Research.** [[paper]](https://arxiv.org/abs/2405.17743) [[official code]](https://github.com/Cardinal-Operations/ORLM)
+**[2025/05/08] ORLM: A customizable framework in training large models for automated optimization modeling, Operations Research.** [[paper]](https://arxiv.org/abs/2405.17743) [[official code]](https://github.com/Cardinal-Operations/ORLM)
 
 - This study proposes a pathway for training open-source LLMs to automate optimization modeling and solving. It introduces OR-INSTRUCT, a semi-automated data synthesis framework for optimization modeling that allows for customizable enhancements tailored to specific scenarios or model types. Additionally, the research presents IndustryOR, an industrial benchmark designed to evaluate the performance of LLMs in solving practical OR problems.
 
