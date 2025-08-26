@@ -32,9 +32,17 @@ Interpretability
 
 ### Prompt-based Methods
 
+**[2025/08] Guiding Large Language Models in Modeling Optimization Problems via Question Partitioning, IJCAI 2025.** [[paper]](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/5589.pdf)
+
+- This study proposes PaMOP, a new framework that uses LLMs to automatically create mathematical models for optimization problems from natural language descriptions. The framework breaks down large problems into smaller parts using a tree structure, guiding the LLM to model each part separately with self-augmented prompts, and then iteratively corrects the final model.
+
+**[2025/07] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving, ACL 2025.** [[paper]](https://aclanthology.org/2025.acl-long.40/) [[official code]](https://github.com/LLM4OR/StructuredOR) [[dataset]](https://huggingface.co/datasets/LLM4OR/StructuredOR)
+
+- This study proposes a new algorithm, BPP-Search, designed to enhance the ability to solve mathematical modeling problems by improving the Tree-of-Thought (ToT) framework. The paper first introduces a new dataset, StructuredOR, which provides detailed annotations of the modeling process.
+
 **[2025/07/28] ORMind: A Cognitive-Inspired End-to-End Reasoning Framework for Operations Research, ACL 2025.** [[paper]](https://aclanthology.org/2025.acl-industry.10/)
 
-- This study introduce ORMind, a cognitive-inspired end-to-end framework that enhances optimization through counterfactual reasoning.
+- This study introduces ORMind, a cognitive-inspired end-to-end framework that enhances optimization through counterfactual reasoning.
 
 **[2025/06/30] LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach, preprint.** [[paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5329027)
 
@@ -92,6 +100,6 @@ Interpretability
 
 ## Other Resources
 
-[Foundation Models for Combinatorial Optimization](https://github.com/ai4co/awesome-fm4co) |github repo|
+[Foundation Models for Combinatorial Optimization](https://github.com/ai4co/awesome-fm4co) [Github repo]
 
 - FM4CO contains interesting research papers (1) using Existing Large Language Models for Combinatorial Optimization, and (2) building Domain Foundation Models for Combinatorial Optimization.
