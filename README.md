@@ -94,6 +94,14 @@ Interpretability
 
 - This study introduces EvoCut, a novel framework that accelerates Mixed-Integer Linear Programming (MILP) by injecting problem-specific cutting planes into the LP relaxation. These cuts reduce the feasible set of the LP relaxation and improve solver efficiency.
 
+**[2025/07] Combinatorial Optimization for All: Using LLMs to Aid Non-Experts in Improving Optimization Algorithms, preprint.** [[paper]](https://arxiv.org/abs/2503.10968) [[official code]](https://github.com/camilochs/comb-opt-for-all)
+
+- This study shows that LLMs can provide effective suggestions to enhance existing, complete combinatorial optimization algorithms, enabling non-expert programmers to improve both solution quality and computational efficiency of 10 different algorithms for the Traveling Salesman Problem (TSP).
+
+**[2025/05] Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning, ICLR 2025 Workshop.** [[paper]](https://claire-labo.github.io/EvoTune/) [[official code]](https://github.com/CLAIRE-Labo/EvoTune)
+
+- This study introduces EvoTune, a method that continuously refines LLMs' generative policies through RL fine-tuning within an evolutionary search loop for algorithm discovery. This approach consistently accelerates the discovery of superior algorithms and enhances search space exploration across various combinatorial optimization and symbolic regression tasks, often outperforming static LLM-based baselines and, in some cases, human experts.
+
 ## Survey
 
 **[2025/05] A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions, IJCAI 2025.** [[paper]](https://llm4or.github.io/LLM4OR/static/pdfs/LLM4OR_survey.pdf) [[official code]](https://github.com/LLM4OR/LLM4OR?tab=readme-ov-file)
