@@ -10,7 +10,7 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 - **Automate Formulation**: Translate natural language descriptions directly into solvable mathematical models.
 - **Guide Solution Search**: Enhance the performance of solvers by generating heuristics, cuts, or strategies.
 
-## Model Interpretation and Analysis
+## <span style="color: #155ac0ff;">Model Interpretation and Analysis</span>
 
 **[2025/02] Evaluating LLM Reasoning in the Operations Research Domain with ORQA, AAAI 2025.** [[paper]](https://arxiv.org/abs/2412.17874) [[dataset]](https://github.com/nl4opt/ORQA)
 
@@ -34,7 +34,7 @@ Interpretability
 
 - This study presents OptiGuide, a framework that leverages large language models (LLMs) to enable supply chain optimization with what-if analysis.
 
-## Automated Optimization Modeling
+## <span style="color: #155ac0ff;">Automated Optimization Modeling</span>
 
 ### Prompt-based Methods
 
@@ -80,6 +80,10 @@ Interpretability
 
 - This study presents **DPLM**, a state-of-the-art specialized model for dynamic programming, which is enabled by the novel **DualReflect** synthetic data pipeline and validated on **DP-Bench**, the first comprehensive benchmark for this task.
 
+**[2025/05] Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling, preprint.** [[paper]](https://arxiv.org/abs/2505.11792) [[official code]](https://github.com/Cardinal-Operations/SIRL)
+
+- This study introduces Solver-Informed Reinforcement Learning (SIRL), a framework that enhances LLM accuracy in mathematical optimization modeling by using professional solvers (like Gurobi) as verifiers to provide high-quality reward signals. This enables LLMs to generate syntactically correct, mathematically feasible optimization code, effectively addressing hallucination and error issues in this domain.
+
 **[2025/05] ORLM: A customizable framework in training large models for automated optimization modeling, Operations Research.** [[paper]](https://arxiv.org/abs/2405.17743) [[official code]](https://github.com/Cardinal-Operations/ORLM)
 
 - This study proposes a pathway for training open-source LLMs to automate optimization modeling and solving. It introduces OR-INSTRUCT, a semi-automated data synthesis framework for optimization modeling that allows for customizable enhancements tailored to specific scenarios or model types. Additionally, the research presents IndustryOR, an industrial benchmark designed to evaluate the performance of LLMs in solving practical OR problems.
@@ -88,7 +92,7 @@ Interpretability
 
 - LLMOPT introduces a unified framework that effectively bridges natural language optimization problems to mathematical formulations, significantly improving solving accuracy across diverse optimization types.
 
-## LLM-Guided Solution Search
+## <span style="color: #155ac0ff;">LLM-Guided Solution Search</span>
 
 **[2025/08] EvoCut: Strengthening Integer Programs via Evolution-Guided Language Models, preprint.** [[paper]](https://arxiv.org/abs/2508.11850) [[official code]](https://github.com/milad1378yz/EvoCut)
 
