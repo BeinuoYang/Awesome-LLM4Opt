@@ -12,6 +12,10 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 ## <span style="color: #155ac0ff;">Model Interpretation and Analysis</span>
 
+**[2025/06] EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations, *ICML 2025 Workshop*.** [[paper]](https://arxiv.org/abs/2502.14760) [[dataset]](https://huggingface.co/datasets/humainlab/EquivaFormulation) [[official code]](https://github.com/HumainLab/EquivaMap)
+
+- This study introduces EquivaMap, an LLM-driven framework that leverages a formal definition called "Quasi-Karp Equivalence" to automatically verify the equivalence of optimization problem formulations. EquivaMap achieved 100% accuracy across diverse equivalent transformations, significantly outperforming existing heuristic methods on the newly developed EquivaFormulation dataset.
+
 **[2025/02] Evaluating LLM Reasoning in the Operations Research Domain with ORQA, *AAAI 2025*.** [[paper]](https://arxiv.org/abs/2412.17874) [[dataset]](https://github.com/nl4opt/ORQA)
 
 - The study introduces ORQA, a benchmark evaluating LLMs on Operations Research tasks requiring multistep reasoning. Testing models like LLaMA 3.1 and Mixtral reveals limited performance, highlighting LLMs' challenges in specialized domains.
@@ -75,6 +79,11 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 ### Learning-based Methods
 
+**[2025/07] Step-Opt: Boosting Optimization Modeling in LLMs through Iterative
+Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.org/abs/2506.17637) [[official code]](https://github.com/samwu-learn/Step)
+
+- This study introduces the Step-Opt framework, which enhances LLMs’ ability to generate accurate mathematical optimization models from natural language. By combining an iterative data synthesis process with a rigorous stepwise validation mechanism, Step-Opt enables fine-tuned LLMs to achieve SOTA performance on various benchmarks — especially for complex problem instances.
+
 **[2025/07] Auto-Formulating Dynamic Programming Problems with Large Language Models, *preprint*.** [[paper]](https://arxiv.org/abs/2507.11737) [[official code]](https://github.com/Cardinal-Operations/ORLM)
 
 - This study presents **DPLM**, a state-of-the-art specialized model for dynamic programming, which is enabled by the novel **DualReflect** synthetic data pipeline and validated on **DP-Bench**, the first comprehensive benchmark for this task.
@@ -122,3 +131,7 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 [Awesome Multi-Agent Papers](https://github.com/kyegomez/awesome-multi-agent-papers)
 
 - A compilation of the best multi-agent papers by the Swarms Team.
+  
+[timefold](https://timefold.ai/)
+
+- The open source Solver AI for Java and Kotlin to optimize scheduling and routing with [good explainability](https://docs.timefold.ai/timefold-platform/latest/guides/validating-an-optimized-plan-with-explainable-ai#:~:text=Timefold%20includes%20several%20features%20designed%20for%20explainability%20and,spot-check%20the%20result%20by%20visualizing%20each%20computed%20plan.).
