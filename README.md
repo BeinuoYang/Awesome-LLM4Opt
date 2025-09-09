@@ -118,6 +118,10 @@ Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.
 
 **[2025/05] A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions, *IJCAI 2025*.** [[paper]](https://llm4or.github.io/LLM4OR/static/pdfs/LLM4OR_survey.pdf) [[official code]](https://github.com/LLM4OR/LLM4OR?tab=readme-ov-file)
 
+**[2024/05] Artificial Intelligence for Operations Research: Revolutionizing the Operations Research Process, *preprint*.** [[paper]](https://arxiv.org/abs/2401.03244)
+
+- A comprehensive survey details how artificial intelligence integrates into every stage of the Operations Research process, from parameter generation and model formulation to optimization, enhancing efficiency and effectiveness in addressing complex decision-making challenges.
+
 ## Vision Paper
 
 **[2025/08] Synergizing Artificial Intelligence and Operations Research: Perspectives from INFORMS Fellows on the Next Frontier, *INFORMS Journal on Data Science*.** [[paper]](https://pubsonline.informs.org/doi/full/10.1287/ijds.2025.0077)
