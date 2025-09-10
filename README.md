@@ -61,7 +61,7 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 - This study introduces a novel method that combines Large Language Models (LLMs) with Monte-Carlo Tree Search to automatically create optimization models from natural language, using techniques like symbolic pruning and LLM-guided evaluation to efficiently explore and generate correct formulations.
 
-**[2025/01] DRoC: Elevating Large Language Models for Complex Vehicle Routing via Decomposed Retrieval of Constraints, *ICML 2025*.** [[paper]](https://openreview.net/forum?id=s9zoyICZ4k) [[official code]](https://github.com/Summer142857/DRoC)
+**[2025/01] DRoC: Elevating Large Language Models for Complex Vehicle Routing via Decomposed Retrieval of Constraints, *ICML 2025*.** [[paper]](https://openreview.net/forum?id=s9zoyICZ4k) [[official code]](https://github.com/Summer142857/DRoC) [[poster]](https://iclr.cc/media/PosterPDFs/ICLR%202025/28142.png?t=1741529032.0682185) [slides](https://iclr.cc/media/iclr-2025/Slides/28142.pdf#page=13.00)
 
 - This study proposes Decomposed Retrieval of Constraints (DRoC), a novel framework aimed at enhancing large language models (LLMs) in exploiting solvers to tackle vehicle routing problems (VRPs) with intricate constraints.
 
