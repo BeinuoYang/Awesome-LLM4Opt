@@ -45,6 +45,10 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 - This study proposes PaMOP, a new framework that uses LLMs to automatically create mathematical models for optimization problems from natural language descriptions. The framework breaks down large problems into smaller parts using a tree structure, guiding the LLM to model each part separately with self-augmented prompts, and then iteratively corrects the final model.
 
+**[2025/08] Automated Optimization Modeling through Expert-Guided Large Language Model Reasoning, *preprint*.** [[paper]](https://arxiv.org/abs/2508.14410) [[dataset]](https://huggingface.co/datasets/LabMem012/LogiOR) [[official code]](https://github.com/BeinuoYang/ORThought)
+
+- This study enhances existing dataset annotations and introduces a new dataset LogiOR. The authors propose ORThought, a framework that automates optimization modeling through expert-guided chain-of-thought reasoning, validated by extensive empirical evaluation and systematic analysis.
+
 **[2025/07] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving, *ACL 2025*.** [[paper]](https://aclanthology.org/2025.acl-long.40/) [[official code]](https://github.com/LLM4OR/StructuredOR) [[dataset]](https://huggingface.co/datasets/LLM4OR/StructuredOR)
 
 - This study proposes a new algorithm, BPP-Search, designed to enhance the ability to solve mathematical modeling problems by improving the Tree-of-Thought (ToT) framework. The paper first introduces a new dataset, StructuredOR, which provides detailed annotations of the modeling process.
@@ -106,15 +110,13 @@ Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.
 
 - This study introduces EvoCut, a novel framework that accelerates Mixed-Integer Linear Programming (MILP) by injecting problem-specific cutting planes into the LP relaxation. These cuts reduce the feasible set of the LP relaxation and improve solver efficiency.
 
-**[2025/07] Combinatorial Optimization for All: Using LLMs to Aid Non-Experts in Improving Optimization Algorithms, *preprint*.** [[paper]](https://arxiv.org/abs/2503.10968) [[official code]](https://github.com/camilochs/comb-opt-for-all)
-
-- This study shows that LLMs can provide effective suggestions to enhance existing, complete combinatorial optimization algorithms, enabling non-expert programmers to improve both solution quality and computational efficiency of 10 different algorithms for the Traveling Salesman Problem (TSP).
-
 **[2025/05] Algorithm Discovery With LLMs: Evolutionary Search Meets Reinforcement Learning, *ICLR 2025 Workshop*.** [[paper]](https://claire-labo.github.io/EvoTune/) [[official code]](https://github.com/CLAIRE-Labo/EvoTune)
 
 - This study introduces EvoTune, a method that continuously refines LLMs' generative policies through RL fine-tuning within an evolutionary search loop for algorithm discovery. This approach consistently accelerates the discovery of superior algorithms and enhances search space exploration across various combinatorial optimization and symbolic regression tasks, often outperforming static LLM-based baselines and, in some cases, human experts.
 
 ## Survey
+
+**[2025/09] A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving, *preprint*.** [[paper]](https://www.arxiv.org/abs/2509.08269) [[official code]](https://github.com/ishmael233/LLM4OPT)
 
 **[2025/05] A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions, *IJCAI 2025*.** [[paper]](https://llm4or.github.io/LLM4OR/static/pdfs/LLM4OR_survey.pdf) [[official code]](https://github.com/LLM4OR/LLM4OR?tab=readme-ov-file)
 
