@@ -106,6 +106,10 @@ Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.
 
 ## <span style="color: #155ac0ff;">LLM-Guided Solution Search</span>
 
+**[2025/09] Autonomous Code Evolution Meets NP-Completeness, *preprint*.** [[paper]](https://arxiv.org/abs/2509.07367)
+
+- This study introduced SATLUTION, an LLM-based framework that autonomously evolves full-scale SAT solver repositories. The system developed solvers that achieved new SOTA performance, outperforming human-designed champions in the SAT Competition 2025 by attaining the lowest PAR-2 scores and solving more instances.
+
 **[2025/08] EvoCut: Strengthening Integer Programs via Evolution-Guided Language Models, *preprint*.** [[paper]](https://arxiv.org/abs/2508.11850) [[official code]](https://github.com/milad1378yz/EvoCut)
 
 - This study introduces EvoCut, a novel framework that accelerates Mixed-Integer Linear Programming (MILP) by injecting problem-specific cutting planes into the LP relaxation. These cuts reduce the feasible set of the LP relaxation and improve solver efficiency.
