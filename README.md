@@ -132,6 +132,10 @@ Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.
 
 **[2025/08] Synergizing Artificial Intelligence and Operations Research: Perspectives from INFORMS Fellows on the Next Frontier, *INFORMS Journal on Data Science*.** [[paper]](https://pubsonline.informs.org/doi/full/10.1287/ijds.2025.0077)
 
+**[2025/07] Beyond Mere Automation: A Techno-functional Framework for Gen AI in Supply Chain Operations, *KDD 2025 Workshop AI4SupplyChain*.** [[paper]](https://openreview.net/forum?id=g03voRcabP)
+
+**[2025/07] Large Language Models for Supply Chain Decisions, *preprint*.** [[paper]](https://arxiv.org/abs/2507.21502)
+
 ## Other Resources
 
 [Foundation Models for Combinatorial Optimization](https://github.com/ai4co/awesome-fm4co)
