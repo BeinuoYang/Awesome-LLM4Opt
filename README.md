@@ -49,10 +49,6 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 - This study enhances existing dataset annotations and introduces a new dataset LogiOR. The authors propose ORThought, a framework that automates optimization modeling through expert-guided chain-of-thought reasoning, validated by extensive empirical evaluation and systematic analysis.
 
-**[2025/07] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving, *ACL 2025*.** [[paper]](https://aclanthology.org/2025.acl-long.40/) [[official code]](https://github.com/LLM4OR/StructuredOR) [[dataset]](https://huggingface.co/datasets/LLM4OR/StructuredOR)
-
-- This study proposes a new algorithm, BPP-Search, designed to enhance the ability to solve mathematical modeling problems by improving the Tree-of-Thought (ToT) framework. The paper first introduces a new dataset, StructuredOR, which provides detailed annotations of the modeling process.
-
 **[2025/07] ORMind: A Cognitive-Inspired End-to-End Reasoning Framework for Operations Research, *ACL 2025*.** [[paper]](https://aclanthology.org/2025.acl-industry.10/)
 
 - This study introduces ORMind, a cognitive-inspired end-to-end framework that enhances optimization through counterfactual reasoning.
@@ -82,6 +78,10 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 - This study introduces Chain-of-Experts (CoE), a multi-agent LLM framework that boosts reasoning in complex operation research problems by integrating domain-specific agents under a conductor's guidance and reflection mechanism.
 
 ### Learning-based Methods
+
+**[2025/07] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving, *ACL 2025*.** [[paper]](https://aclanthology.org/2025.acl-long.40/) [[official code]](https://github.com/LLM4OR/StructuredOR) [[dataset]](https://huggingface.co/datasets/LLM4OR/StructuredOR)
+
+- This study proposes a new algorithm, BPP-Search, designed to enhance the ability to solve mathematical modeling problems by improving the Tree-of-Thought (ToT) framework. The paper first introduces a new dataset, StructuredOR, which provides detailed annotations of the modeling process.
 
 **[2025/07] Step-Opt: Boosting Optimization Modeling in LLMs through Iterative
 Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.org/abs/2506.17637) [[official code]](https://github.com/samwu-learn/Step)
