@@ -57,6 +57,10 @@ We track the latest papers, code, and resources demonstrating how LLMs are used 
 
 - This study introduces LEAN-LLM-OPT, a novel framework that uses few-shot learning to guide a team of LLM agents in automatically creating state-of-the-art formulations for large-scale optimization problems from a user's query.
 
+**[2025/05] OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents, *preprint*.** [[paper]](https://arxiv.org/abs/2504.16918)
+
+- This study introduces OptimAI, a multi-agent collaborative framework powered by LLMs. Its core strategy is "plan-before-code," where multiple solution strategies are formulated upfront, and a UCB algorithm is used to dynamically switch to the most promising path during debugging. The framework also demonstrates a synergistic effect by integrating heterogeneous LLMs in specialized roles, leading to significant gains in productivity and success rates for solving complex optimization problems.
+
 **[2025/05] Autoformulation of Mathematical Optimization Models Using LLMs, *ICML 2025*.** [[paper]](https://openreview.net/forum?id=33YrT1j0O0&noteId=1PhN7tpMJd) [[official code]](https://github.com/jumpynitro/AutoFormulator)
 
 - This study introduces a novel method that combines Large Language Models (LLMs) with Monte-Carlo Tree Search to automatically create optimization models from natural language, using techniques like symbolic pruning and LLM-guided evaluation to efficiently explore and generate correct formulations.
