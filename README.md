@@ -134,11 +134,15 @@ Data Synthesis and Structured Validation, *preprint*.** [[paper]](https://arxiv.
 
 ## Vision Paper
 
+**[2025/09] "It Was a Magical Box": Understanding Practitioner Workflows and Needs in Optimization, *arxiv*.** (interview paper) [[paper]](https://arxiv.org/abs/2509.16402)
+
 **[2025/08] Synergizing Artificial Intelligence and Operations Research: Perspectives from INFORMS Fellows on the Next Frontier, *INFORMS Journal on Data Science*.** [[paper]](https://pubsonline.informs.org/doi/full/10.1287/ijds.2025.0077)
 
 **[2025/07] Beyond Mere Automation: A Techno-functional Framework for Gen AI in Supply Chain Operations, *KDD 2025 Workshop AI4SupplyChain*.** [[paper]](https://openreview.net/forum?id=g03voRcabP)
 
 **[2025/07] Large Language Models for Supply Chain Decisions, *preprint*.** [[paper]](https://arxiv.org/abs/2507.21502)
+
+**[1987/08] Two Heads Are Better than One: The Collaboration between AI and OR, *Interfaces*.** [[paper]](https://pubsonline.informs.org/doi/abs/10.1287/inte.17.4.8)
 
 ## Other Resources
 
