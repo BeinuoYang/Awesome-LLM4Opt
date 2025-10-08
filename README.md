@@ -85,7 +85,12 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 ### Learning-based Methods
 
+**[2025/09] OptiMind: Teaching LLMs to Think Like Optimization Experts, *preprint*.** [[arXiv]](https://arxiv.org/abs/2509.22979)
+
+- This work enhances MILP formulation accuracy by integrating optimization expertise into LLM training and inference. Training data is cleaned through class-based error analysis, and multi-turn inference strategies are introduced, guided by error summaries and solver feedback. Evaluation across multiple models shows this approach improves formulation accuracy by 14 percentage points on average, advancing robust LLM-assisted optimization.
+
 **[2025/09] StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models, *preprint*.** [[arXiv]](https://arxiv.org/abs/2509.22558) [[official code]](https://github.com/0xzhouchenyu/StepORLM)
+
 
 - This study introduces StepORLM, a self-evolving framework for training LLMs on Operations Research problems, where a policy model and a Generative Process Reward Model (GenPRM) co-evolve through dual feedback: external solver verification (outcome) and holistic trajectory evaluation (process). Using Weighted DPO, the 8B model achieves SOTA results across six benchmarks, outperforming much larger models.
 
