@@ -96,7 +96,6 @@ Automated Taxi Fleet Operations, *preprint*.** [[arXiv]](https://www.arxiv.org/a
 
 **[2025/09] StepORLM: A Self-Evolving Framework With Generative Process Supervision For Operations Research Language Models, *preprint*.** [[arXiv]](https://arxiv.org/abs/2509.22558) [[official code]](https://github.com/0xzhouchenyu/StepORLM)
 
-
 - This study introduces StepORLM, a self-evolving framework for training LLMs on Operations Research problems, where a policy model and a Generative Process Reward Model (GenPRM) co-evolve through dual feedback: external solver verification (outcome) and holistic trajectory evaluation (process). Using Weighted DPO, the 8B model achieves SOTA results across six benchmarks, outperforming much larger models.
 
 **[2025/07] BPP-Search: Enhancing Tree of Thought Reasoning for Mathematical Modeling Problem Solving, *ACL 2025*.** [[paper]](https://aclanthology.org/2025.acl-long.40/) [[official code]](https://github.com/LLM4OR/StructuredOR) [[dataset]](https://huggingface.co/datasets/LLM4OR/StructuredOR)
@@ -116,7 +115,7 @@ Data Synthesis and Structured Validation, *preprint*.** [[arXiv]](https://arxiv.
 
 - This study introduces **OPTIBENCH**, a new benchmark designed to evaluate LLMs on realistic optimization problems, including non-linear and tabular data scenarios. It also proposes **ReSocratic**, a reverse data synthesis method that significantly improves the performance of open-source LLMs, raising Llama-3-8B-Instruct's accuracy on the benchmark by 37.5% to 51.1% and enabling it to outperform larger models in specific problem categories.
 
-**[2025/05] Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling, *NeurIPS 2025*.** [[arXiv]](https://arxiv.org/abs/2505.11792) [[official code]](https://github.com/Cardinal-Operations/SIRL)
+**[2025/05] Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling, *NeurIPS 2025*.** [[arXiv]](https://arxiv.org/abs/2505.11792) [[official code]](https://github.com/Cardinal-Operations/SIRL) [[slides]](https://nips.cc/media/neurips-2025/Slides/119660.pdf)
 
 - This study introduces Solver-Informed Reinforcement Learning (SIRL), a framework that enhances LLM accuracy in mathematical optimization modeling by using professional solvers (like Gurobi) as verifiers to provide high-quality reward signals. This enables LLMs to generate syntactically correct, mathematically feasible optimization code, effectively addressing hallucination and error issues in this domain.
 
