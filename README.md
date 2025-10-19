@@ -43,6 +43,11 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 ### Prompt-based Methods
 
+**[2025/08] RideAgent: An LLM-Enhanced Optimization Framework for
+Automated Taxi Fleet Operations, *preprint*.** [[arXiv]](https://www.arxiv.org/abs/2505.06608v2)
+
+- RideAgent is an LLM-enhanced framework for electric taxi fleet optimization that automatically converts natural language objectives into mathematical models and accelerates computation by intelligently fixing low-sensitivity variables based on historical data. Using Random Forest and Mixed-Integer Programming, it achieves 86% objective generation accuracy and reduces solution time by 53% with minimal optimality loss (2.42%) on NYC taxi data.
+
 **[2025/08] Guiding Large Language Models in Modeling Optimization Problems via Question Partitioning, *IJCAI 2025*.** [[paper]](https://www.ijcai.org/proceedings/2025/0296.pdf)
 
 - This study proposes PaMOP, a new framework that uses LLMs to automatically create mathematical models for optimization problems from natural language descriptions. The framework breaks down large problems into smaller parts using a tree structure, guiding the LLM to model each part separately with self-augmented prompts, and then iteratively corrects the final model.
@@ -67,7 +72,7 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 - This study introduces a novel method that combines Large Language Models (LLMs) with Monte-Carlo Tree Search to automatically create optimization models from natural language, using techniques like symbolic pruning and LLM-guided evaluation to efficiently explore and generate correct formulations.
 
-**[2025/01] DRoC: Elevating Large Language Models for Complex Vehicle Routing via Decomposed Retrieval of Constraints, *ICML 2025*.** [[OpenReview]](https://openreview.net/forum?id=s9zoyICZ4k) [[official code]](https://github.com/Summer142857/DRoC) [slides](https://iclr.cc/media/iclr-2025/Slides/28142.pdf#page=13.00) [[poster]](https://iclr.cc/media/PosterPDFs/ICLR%202025/28142.png?t=1741529032.0682185)
+**[2025/01] DRoC: Elevating Large Language Models for Complex Vehicle Routing via Decomposed Retrieval of Constraints, *ICML 2025*.** [[OpenReview]](https://openreview.net/forum?id=s9zoyICZ4k) [[official code]](https://github.com/Summer142857/DRoC) [[slides]](https://iclr.cc/media/iclr-2025/Slides/28142.pdf#page=13.00) [[poster]](https://iclr.cc/media/PosterPDFs/ICLR%202025/28142.png?t=1741529032.0682185)
 
 - This study proposes Decomposed Retrieval of Constraints (DRoC), a novel framework aimed at enhancing large language models (LLMs) in exploiting solvers to tackle vehicle routing problems (VRPs) with intricate constraints.
 
