@@ -43,6 +43,10 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 ### Prompt-based Methods
 
+**[2025/10] AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library, *preprint*.** [[arXiv]](https://arxiv.org/abs/2510.18428) [[official code]](https://github.com/Minw913/AlphaOPT)
+
+- This study presents AlphaOPT, a self-improving experience library framework that enables LLMs to learn optimization problem formulation from answer-only supervision through iteratively building and refining structured, solver-verified insights, achieving continual improvement without model retraining and outperforming the strongest baseline by 7.7% on out-of-distribution benchmarks.
+
 **[2025/08] RideAgent: An LLM-Enhanced Optimization Framework for
 Automated Taxi Fleet Operations, *preprint*.** [[arXiv]](https://www.arxiv.org/abs/2505.06608v2)
 
