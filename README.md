@@ -47,6 +47,10 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 - This study presents AlphaOPT, a self-improving experience library framework that enables LLMs to learn optimization problem formulation from answer-only supervision through iteratively building and refining structured, solver-verified insights, achieving continual improvement without model retraining and outperforming the strongest baseline by 7.7% on out-of-distribution benchmarks.
 
+**[2025/09] LLM-OptiRA: LLM-Driven Optimization of Resource Allocation for Non-Convex Problems in Wireless Communications, *preprint*.** [[arXiv]](https://arxiv.org/abs/2505.02091) [[official code]](https://github.com/Tibbers0310/LLM-OptiRA)
+
+- Proposes the first LLM pipeline that automatically identifies and reformulates non-convex components in *wireless resource allocation* tasks, enabling end-to-end solving. Integrates solver-in-the-loop error correction and feasibility validation, reaching a 96% execution rate and 80% success rate with GPT-4, outperforming heuristic baselines.
+
 **[2025/08] RideAgent: An LLM-Enhanced Optimization Framework for
 Automated Taxi Fleet Operations, *preprint*.** [[arXiv]](https://www.arxiv.org/abs/2505.06608v2)
 
@@ -123,7 +127,7 @@ Data Synthesis and Structured Validation, *preprint*.** [[arXiv]](https://arxiv.
 
 - This study introduces Solver-Informed Reinforcement Learning (SIRL), a framework that enhances LLM accuracy in mathematical optimization modeling by using professional solvers (like Gurobi) as verifiers to provide high-quality reward signals. This enables LLMs to generate syntactically correct, mathematically feasible optimization code, effectively addressing hallucination and error issues in this domain.
 
-**[2025/05] ORLM: A customizable framework in training large models for automated optimization modeling, *Operations Research*.** [[arXiv]](https://arxiv.org/abs/2405.17743) [[official code]](https://github.com/Cardinal-Operations/ORLM)
+**[2025/05] ORLM: A customizable framework in training large models for automated optimization modeling, *Operations Research*.** [[arXiv]](https://arxiv.org/abs/2405.17743) [[official code]](https://github.com/Cardinal-Operations/ORLM) [[model]](https://huggingface.co/CardinalOperations/ORLM-LLaMA-3-8B)
 
 - This study proposes a pathway for training open-source LLMs to automate optimization modeling and solving. It introduces OR-INSTRUCT, a semi-automated data synthesis framework for optimization modeling that allows for customizable enhancements tailored to specific scenarios or model types. Additionally, the research presents IndustryOR, an industrial benchmark designed to evaluate the performance of LLMs in solving practical OR problems.
 
