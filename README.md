@@ -43,6 +43,10 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 ### Prompt-based Methods
 
+**[2025/10] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling, *NeurIPS 2025*.** [[OpenReview]](https://openreview.net/forum?id=Ej20yjWMCj) [[arXiv]](https://www.arxiv.org/abs/2510.22192) [[official code]](https://github.com/MIRALab-USTC/OptiTree)
+
+- This study introduces OptiTree, a framework that overcomes the limitations of rigid, fixed-step prompting in optimization modeling. It introduces a hierarchical modeling tree that organizes operations research problems by complexity, allowing the system to adaptively decompose new, complex problems into simpler, standard subproblems via tree search. By retrieving and synthesizing structured "modeling thoughts" from these identified subproblems, OptiTree effectively transfers established domain knowledge to novel tasks, achieving over 10% improvement in modeling accuracy on challenging benchmarks.
+
 **[2025/10] AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library, *preprint*.** [[arXiv]](https://arxiv.org/abs/2510.18428) [[official code]](https://github.com/Minw913/AlphaOPT)
 
 - This study presents AlphaOPT, a self-improving experience library framework that enables LLMs to learn optimization problem formulation from answer-only supervision through iteratively building and refining structured, solver-verified insights, achieving continual improvement without model retraining and outperforming the strongest baseline by 7.7% on out-of-distribution benchmarks.
