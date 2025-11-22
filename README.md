@@ -102,6 +102,10 @@ Automated Taxi Fleet Operations, *preprint*.** [[arXiv]](https://www.arxiv.org/a
 
 ### Learning-based Methods
 
+**[2025/10] MURKA: Multi-Reward Reinforcement Learning with Knowledge Alignment for Optimization Tasks, *NeurIPS 2025*.** [[OpenReview]](https://openreview.net/forum?id=f4pvPNf9ox)
+
+- This study introduces MURKA, a collaborative agent framework (Extractor, Solver, Checker). It optimizes the Extractor using GRPO with a composite reward, enhances Solver's AMPL code generation via knowledge distillation, and ensures feasibility through iterative verification. MURKA achieves SOTA performance, improving solution accuracy by 5.9% and execution success rate by 5.1% across eight benchmarks.
+
 **[2025/09] OptiMind: Teaching LLMs to Think Like Optimization Experts, *preprint*.** [[arXiv]](https://arxiv.org/abs/2509.22979)
 
 - This work enhances MILP formulation accuracy by integrating optimization expertise into LLM training and inference. Training data is cleaned through class-based error analysis, and multi-turn inference strategies are introduced, guided by error summaries and solver feedback. Evaluation across multiple models shows this approach improves formulation accuracy by 14 percentage points on average, advancing robust LLM-assisted optimization.
