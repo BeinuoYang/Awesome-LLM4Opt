@@ -43,6 +43,10 @@ We also include **surveys** and **vision papers** that provide comprehensive ove
 
 ### Prompt-based Methods
 
+**[2025/10] SolverLLM: Leveraging Test-Time Scaling for Optimization Problem via LLM-Guided Search, *NeurIPS 2025*.** [[OpenReview]](https://openreview.net/forum?id=mN3CMpfWR6) [[arXiv]](https://www.arxiv.org/abs/2510.16916)
+
+- This study introduces SolverLLM, a training-free framework that solves optimization problems by enhancing Monte Carlo Tree Search (MCTS) with dynamic expansion for incremental formulation, prompt backpropagation to guide exploration using solver feedback, and uncertainty backpropagation to weight decision reliability based on reward variance.
+
 **[2025/10] OptiTree: Hierarchical Thoughts Generation with Tree Search for LLM Optimization Modeling, *NeurIPS 2025*.** [[OpenReview]](https://openreview.net/forum?id=Ej20yjWMCj) [[arXiv]](https://www.arxiv.org/abs/2510.22192) [[official code]](https://github.com/MIRALab-USTC/OptiTree)
 
 - This study introduces OptiTree, a framework that overcomes the limitations of rigid, fixed-step prompting in optimization modeling. It introduces a hierarchical modeling tree that organizes operations research problems by complexity, allowing the system to adaptively decompose new, complex problems into simpler, standard subproblems via tree search. By retrieving and synthesizing structured "modeling thoughts" from these identified subproblems, OptiTree effectively transfers established domain knowledge to novel tasks, achieving over 10% improvement in modeling accuracy on challenging benchmarks.
@@ -131,7 +135,7 @@ Data Synthesis and Structured Validation, *preprint*.** [[arXiv]](https://arxiv.
 
 - This study introduces **OPTIBENCH**, a new benchmark designed to evaluate LLMs on realistic optimization problems, including non-linear and tabular data scenarios. It also proposes **ReSocratic**, a reverse data synthesis method that significantly improves the performance of open-source LLMs, raising Llama-3-8B-Instruct's accuracy on the benchmark by 37.5% to 51.1% and enabling it to outperform larger models in specific problem categories.
 
-**[2025/05] Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling, *NeurIPS 2025*.** [[arXiv]](https://arxiv.org/abs/2505.11792) [[official code]](https://github.com/Cardinal-Operations/SIRL) [[slides]](https://nips.cc/media/neurips-2025/Slides/119660.pdf)
+**[2025/05] Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling, *NeurIPS 2025*.** [OpenReview](https://openreview.net/forum?id=80L235oVBe) [[arXiv]](https://arxiv.org/abs/2505.11792) [[official code]](https://github.com/Cardinal-Operations/SIRL) [[slides]](https://nips.cc/media/neurips-2025/Slides/119660.pdf)
 
 - This study introduces Solver-Informed Reinforcement Learning (SIRL), a framework that enhances LLM accuracy in mathematical optimization modeling by using professional solvers (like Gurobi) as verifiers to provide high-quality reward signals. This enables LLMs to generate syntactically correct, mathematically feasible optimization code, effectively addressing hallucination and error issues in this domain.
 
