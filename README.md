@@ -173,9 +173,10 @@ Data Synthesis and Structured Validation, *preprint*.** [[arXiv]](https://arxiv.
 
 **[2024/05] Artificial Intelligence for Operations Research: Revolutionizing the Operations Research Process, *EJOR*.** [[ScienceDirect]](https://www.sciencedirect.com/science/article/pii/S0377221725006666) [[arXiv]](https://arxiv.org/abs/2401.03244)
 
-- A comprehensive survey details how artificial intelligence integrates into every stage of the Operations Research process, from parameter generation and model formulation to optimization, enhancing efficiency and effectiveness in addressing complex decision-making challenges.
-
 ## Vision Paper
+
+**[2025/10] Democratizing Optimization with Generative AI, *SSRN*.**
+[[paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5511218)
 
 **[2025/09] "It Was a Magical Box": Understanding Practitioner Workflows and Needs in Optimization, *arxiv*.** (interview paper) [[arXiv]](https://arxiv.org/abs/2509.16402)
 
